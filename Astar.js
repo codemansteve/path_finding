@@ -11,7 +11,7 @@ function heuristic(a, b) {
   //var d = abs(a.i - b.i) + abs(a.j - b.j);
   return d;
 }
-var arrSize = 120;
+var arrSize = 60;
 var cols = arrSize;
 var rows = arrSize;
 var grid = new Array(cols);
@@ -195,7 +195,7 @@ function draw() {
   // }
 
   noFill();
-  stroke(0, 255, 0);
+  stroke(0, 0, 255);
   strokeWeight(w / 2);
   beginShape();
   for (var i = 0; i < path.length; i++) {
